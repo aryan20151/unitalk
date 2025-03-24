@@ -4,7 +4,6 @@ import { useState } from 'react'; // Importing useState hook from React for mana
 import Button from '@/components/Button'; // Importing a custom Button component
 import { Toaster } from '@/components/ui/toaster'; // Importing a Toaster component to show toast notifications
 import { useToast } from '@/hooks/use-toast'; // Importing the useToast hook to trigger toast notifications
-import Link from 'next/link'; // Importing Link component from Next.js for navigation
 
 /**
  * Home Component
